@@ -16,6 +16,8 @@ const InputTodo = () => {
       console.log(response);
       console.log(await response.json());
       setDescription("");
+
+      window.location = "/";
     } catch (err) {
       console.log(err.message);
     }
